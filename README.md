@@ -10,4 +10,4 @@ Develop a preview card of an NFT containing photo, value, how many days it is av
 
 
 ✔ Resolução realizada/Resolution performed: 
-![ResultadoTeste](https://user-images.githubusercontent.com/87347314/146087935-668bf229-c6f7-41e9-a632-b8d7cca683c9.png)
+
