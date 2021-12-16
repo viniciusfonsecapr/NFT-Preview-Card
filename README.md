@@ -4,7 +4,7 @@
 [✔] Desenvolver uma card preview de uma NFT contendo foto, valor, quantos dias ela está disponivel para venda e ao final mostra-se quem criou a NFT. 
 Develop a preview card of an NFT containing photo, value, how many days it is available for sale and at the end it shows who created the NFT.
 
-https://viniciusfonsecapr.github.io/NFT-Preview-Card-Project/
+https://viniciusfonsecapr.github.io/NFT-Preview-Card/
 ------------------------------------------------------------
 📌 Resolução esperada/Expected resolution: 
 ![desktop-design](https://user-images.githubusercontent.com/87347314/146087680-ca030621-1588-4534-bcdc-f75b5dd26dd2.jpg)
