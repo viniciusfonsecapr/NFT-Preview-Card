@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background:hsl(217, 54%, 11%);
+    height: 1000px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 10vh;
+    width: 380px;
+    height: 600px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    border: none;
+
+}
+
+.card__cover {
+    height: 300px;
+    width: 340px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10px;
+    border: none;
+    background-image: url(/nft-preview-card-component-main/images/image-equilibrium.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+    object-fit:cover;
+}
+
+.card__cover:hover{
+    background-image: url("./nft-preview-card-component-main/images/icon-view.svg"), linear-gradient(	rgba(0, 238, 221, .5), 	rgba(0, 238, 221, .5)), url("./nft-preview-card-component-main/images/image-equilibrium.jpg");
+    background-position: center;
+    background-size: 15%, cover, cover;
+    cursor: pointer;
+}
+
+.card__content {
+    /* Take available height */
+    flex: 1;
+    margin-left: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: white;
+    text-align: left;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+h3:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+    transition: 0.9s;
+}
+
+#text-currency {
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+#icon-ethereum{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    object-fit: cover;
+    image-rendering: optimizeQuality;
+}
+#value-currency{
+    color:hsl(178, 100%, 50%);
+    font-weight: 600;
+    float: left;
+    margin: -16px 0 0 16px;
+}
+#icon-clock{
+        display: flex;
+        float:right;
+        margin: -16px 110px 0 0;
+}
+#days-gone-by{
+    display:block;
+    color: hsl(215, 51%, 70%);
+    float: right;
+    margin: -16px -105px 0 0;
+}
+
+#line{
+    text-align: center;
+    width: 330;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    display: block;
+    border-color: hsl(215, 32%, 27%);
+    border-style: ridge;
+    opacity: 0.4;
+}
+
+.icon-profile{
+    width:40px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid white;
+}
+
+#description-profile{
+    font-size: 14px;
+    display: flex;
+    letter-spacing: 1px;
+    text-align: left;
+    margin: -30px 0 0 70px;
+    color: hsl(215, 51%, 70%);
+}
+
+
+a {
+    cursor: pointer;
+    color: white;
+    margin: 0 0 0 4px;
+    
+}
+a::before{
+    color:hsl(178, 100%, 50%);
+    cursor: pointer;
+    transition: 0.9s;
+}
+
+a:hover{
+    color:hsl(178, 100%, 50%);
+    cursor: pointer;
+    transition: 0.9s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
