@@ -37,6 +37,13 @@ body {
     object-fit:cover;
 }
 
+.card__cover::before{
+    background-image: url(./nft-preview-card-component-main/images/image-equilibrium.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+    object-fit:cover;
+}
+
 .card__cover:hover{
     background-image: url("./nft-preview-card-component-main/images/icon-view.svg"), linear-gradient(	rgba(0, 238, 221, .5), 	rgba(0, 238, 221, .5)), url("./nft-preview-card-component-main/images/image-equilibrium.jpg");
     background-position: center;
